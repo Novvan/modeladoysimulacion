@@ -8,7 +8,13 @@
   },
   "author": "Novvan",
   "license": "ISC",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "cz-gamedev": "^1.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-gamedev"
+    }
   }
 }

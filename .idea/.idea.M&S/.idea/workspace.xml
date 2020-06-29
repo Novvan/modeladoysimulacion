@@ -1,40 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36902e6a-b6f8-4a33-9a2b-a41f6bedb104" name="Default Changelist" comment="" />
+    <list default="true" id="36902e6a-b6f8-4a33-9a2b-a41f6bedb104" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectInterface.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Bullet.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Bullet.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PointAndShoot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PointAndShoot.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.M&amp;S/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.M&amp;S/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.M&amp;S/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.M&amp;S/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.M&amp;S/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.M&amp;S/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Requirements.md" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Requirements.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/package.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectInterface.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PointAndShoot.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CameraBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Requirements.txt" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectInterface.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Requirements.txt" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PointAndShoot.cs" />
         <option value="$PROJECT_DIR$/Assets/Requirements.md" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Bullet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1dxvnNUkXg7NINLXrUXu9TB6sIl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.SolutionExplorerActivator" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.3" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -61,6 +104,8 @@
       <updated>1593379728748</updated>
       <workItem from="1593379742114" duration="4853000" />
       <workItem from="1593384651090" duration="3507000" />
+      <workItem from="1593388870834" duration="9477000" />
+      <workItem from="1593398885216" duration="3941000" />
     </task>
     <servers />
   </component>
@@ -69,10 +114,94 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="498" height="446" key="SwitcherDM" timestamp="1593387150302">
+    <state width="1557" height="254" key="GridCell.Tab.0.bottom" timestamp="1593394347129">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1600.860@0.0.1600.860" timestamp="1593387150302" />
+    <state width="1557" height="254" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1593394347129" />
+    <state width="1557" height="254" key="GridCell.Tab.0.center" timestamp="1593394347129">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="254" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1593394347129" />
+    <state width="1557" height="254" key="GridCell.Tab.0.left" timestamp="1593394347129">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="254" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1593394347129" />
+    <state width="1557" height="254" key="GridCell.Tab.0.right" timestamp="1593394347129">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="254" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1593394347129" />
+    <state width="1557" height="254" key="GridCell.Tab.1.bottom" timestamp="1593394347129">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="254" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1593394347129" />
+    <state width="1557" height="254" key="GridCell.Tab.1.center" timestamp="1593394347129">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="254" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1593394347129" />
+    <state width="1557" height="254" key="GridCell.Tab.1.left" timestamp="1593394347129">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="254" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1593394347129" />
+    <state width="1557" height="254" key="GridCell.Tab.1.right" timestamp="1593394347129">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="254" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1593394347129" />
+    <state width="1557" height="254" key="GridCell.Tab.2.bottom" timestamp="1593394347129">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="254" key="GridCell.Tab.2.bottom/0.0.1600.860@0.0.1600.860" timestamp="1593394347129" />
+    <state width="1557" height="254" key="GridCell.Tab.2.center" timestamp="1593394347129">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="254" key="GridCell.Tab.2.center/0.0.1600.860@0.0.1600.860" timestamp="1593394347129" />
+    <state width="1557" height="254" key="GridCell.Tab.2.left" timestamp="1593394347129">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="254" key="GridCell.Tab.2.left/0.0.1600.860@0.0.1600.860" timestamp="1593394347129" />
+    <state width="1557" height="254" key="GridCell.Tab.2.right" timestamp="1593394347129">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="254" key="GridCell.Tab.2.right/0.0.1600.860@0.0.1600.860" timestamp="1593394347129" />
+    <state width="1557" height="254" key="GridCell.Tab.3.bottom" timestamp="1593394347130">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="254" key="GridCell.Tab.3.bottom/0.0.1600.860@0.0.1600.860" timestamp="1593394347130" />
+    <state width="1557" height="254" key="GridCell.Tab.3.center" timestamp="1593394347130">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="254" key="GridCell.Tab.3.center/0.0.1600.860@0.0.1600.860" timestamp="1593394347130" />
+    <state width="1557" height="254" key="GridCell.Tab.3.left" timestamp="1593394347129">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="254" key="GridCell.Tab.3.left/0.0.1600.860@0.0.1600.860" timestamp="1593394347129" />
+    <state width="1557" height="254" key="GridCell.Tab.3.right" timestamp="1593394347130">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="254" key="GridCell.Tab.3.right/0.0.1600.860@0.0.1600.860" timestamp="1593394347130" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1593400023351">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1600.860@0.0.1600.860" timestamp="1593400023351" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1593393631678">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1593393631678" />
   </component>
 </project>
