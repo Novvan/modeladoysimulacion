@@ -7,6 +7,7 @@ public class PointAndShoot : MonoBehaviour {
     public GameObject player;
     public GameObject bulletPrefab;
     public GameObject bulletStart;
+    public AudioSource laserSound;
     [SerializeField] private GameManager _gm;
 
     public float bulletSpeed = 60.0f;
@@ -27,7 +28,7 @@ public class PointAndShoot : MonoBehaviour {
         float rotationZ = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg;
         //player.transform.rotation = Quaternion.Euler(0.0f, 0.0f, rotationZ);
 
-        if(Input.GetMouseButtonDown(0)){
+        if(Input.GetMouseButtonDown(0) && player.GetComponent<ObjectInterface>().IsAlive){
             float distance = difference.magnitude;
             Vector2 direction = difference / distance;
             direction.Normalize();
@@ -39,6 +40,7 @@ public class PointAndShoot : MonoBehaviour {
         b.transform.position = bulletStart.transform.position;
         b.transform.rotation = Quaternion.Euler(0.0f, 0.0f, rotationZ-90);
         b.GetComponent<Bullet>().Shot(direction, bulletSpeed);
+        laserSound.Play();
         _gm.Bullets.Add(b);
     }
 }

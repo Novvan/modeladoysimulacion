@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    void Start()
-    {
-    }
+    public GameObject TargetPlayer;
+    private Vector3 _direction;
+    [SerializeField] private float _speed;
 
     void Update()
     {
+        _direction = TargetPlayer.transform.position - transform.position;
+        
+        transform.position += _direction.normalized * _speed * Time.deltaTime;
     }
 }

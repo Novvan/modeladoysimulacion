@@ -4,6 +4,16 @@ using UnityEngine;
 
 public class ObjectInterface : MonoBehaviour
 {
-    public bool isAlive = true;
-    
+    private bool _isAlive = true;
+
+
+    public bool IsAlive
+    {
+        get => _isAlive;
+        set
+        {
+            _isAlive = value;
+            this.transform.gameObject.SetActive(value);
+        }
+    }
 }

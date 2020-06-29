@@ -3,7 +3,7 @@
 ✔ Colisiones
 ✔ Disparos
 ✔ Colisiones enemigos disparos
-✔
-❌ Condiciones de victoria y derrota
+
+~ Condiciones de victoria y derrota
 ❌ Menu
 

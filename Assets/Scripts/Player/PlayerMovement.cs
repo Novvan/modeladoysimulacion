@@ -6,7 +6,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     private float _baseForce = 2.5f;
-    private float _baseTorque = 500f;
+    private float _baseTorque = 200f;
     private float _friction = 0.999f;
     private float _torque;
     private float _inertia = 1;
@@ -15,6 +15,12 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 _force;
     private Vector2 _acc;
     private Vector2 _speed;
+
+    public Vector2 Speed
+    {
+        set => _speed = value;
+    }
+
     private float _rx;
     private float _ry;
     private float _mass = 1;
